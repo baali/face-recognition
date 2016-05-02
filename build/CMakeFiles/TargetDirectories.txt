@@ -1,0 +1,5 @@
+/home/nmd/nmd-projects/face_recognition/build/CMakeFiles/facerec_demo.dir
+/home/nmd/nmd-projects/face_recognition/build/CMakeFiles/edit_cache.dir
+/home/nmd/nmd-projects/face_recognition/build/CMakeFiles/imgCapture.dir
+/home/nmd/nmd-projects/face_recognition/build/CMakeFiles/facerec_video.dir
+/home/nmd/nmd-projects/face_recognition/build/CMakeFiles/rebuild_cache.dir

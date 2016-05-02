@@ -1,0 +1,31 @@
+[
+{
+    "service": "Face Recognition",
+    "route": "/recognize/face",
+    "type": "command",
+    "request": {
+        "params": {
+            "file": {
+                "type": "file"
+            },
+            "ext_file": {
+                "type": "str"
+            }
+        }
+    },
+    "response": {
+        "params": {
+            "detected": {
+                "type": "boolean"
+            },
+            "reason": {
+                "type": "str"
+            },
+            "people" : {
+                "type": "dict"
+            }
+        }
+    },
+    "command" : "/home/nmd/nmd-projects/face_recognition/build/facerec_video -ext=/home/nmd/nmd-projects/ext_files/{ext_file} -image={file}"
+}
+]
